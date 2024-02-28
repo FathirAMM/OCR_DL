@@ -38,7 +38,7 @@ def extract_information(image):
     return name, dl_id, nic, dob, address, text
 
 # Streamlit app
-st.title('Document Information Extractor')
+st.title('🪪 Driving License Information Extractor')
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png"])
 
