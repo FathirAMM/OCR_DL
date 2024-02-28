@@ -62,6 +62,6 @@ if uploaded_file is not None:
         st.write("Address:", address)
     
     # Button to display extracted text
-    if st.button('Show Extracted Text'):
-        st.write("Extracted Text:")
+    expander = st.expander("Extracted Text")
+    with expander:
         st.write(extracted_text)
