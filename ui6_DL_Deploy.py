@@ -4,7 +4,7 @@ from PIL import Image
 import re
 
 # Configuration for Tesseract OCR
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 config = ('-l eng+sin+typew --oem 1 --psm 3')
 
 # Function to extract information from image
