@@ -16,7 +16,8 @@ def extract_information(image):
     # Define regex patterns for information extraction
     name_pattern = r'(?<=\d,\d\. )(.+)'
     dl_id_pattern = r'5\. b([^\s]+)'
-    nic_pattern = r'4a: (\d{9,12})'
+    #nic_pattern = r'4a: (\d{9,12})'
+    nic_pattern = r'4d. (\d{9,12})'
     dob_pattern = r'3\. (\d{2}\.\d{2}\.\d{4})'
     address_pattern = r'8(.+)'
 
